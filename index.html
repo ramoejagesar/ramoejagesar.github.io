@@ -1,31 +1,80 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>LegalStat, analyze court's jurisprudence</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about us">About Us</a></li>
-	        		<li><a href="/services">Services</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	            <li><a href="/contact">Contact</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-	    		<div class="blurb">
-	        		<h1>Welcome to LegalStat!</h1>
-					<p>LegalStat project I started with during 10 Days of Code. <a href="/blog">Read more about Days of Code ...</a></p>
-	       				<p> In a nutshell, LegalStat is about analysing case law ('jurisprudence') from the court of Rotterdam. By combining key information and circumstances mentioned in the case I hope to predict the court’s outcome or success rates of future cases.</p>
-	    		</div><!-- /.blurb -->
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="https://github.com/ramoejagesar/ramoe.github.io</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<html>
+  <head>
+    <title>
+      Legal Stat
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="js/smil.check.js"></script>
+    <script src="js/smil.user.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+  </head>
+  <body>
+    <progress value="0"></progress>
+    <div id="hamberger">
+      <a href="#" id="ham_click"> 	&#9776;</a>
+    </div>
+    <div id="menu">
+
+      <ul>
+        <li><a id="one">First</a></li>
+        <li><a id="two">Second</a></li>
+        <li><a id="three">Third</a></li>
+      </ul>
+      <svg id="my_name" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      	 viewBox="0 0 200 200" enable-background="new 0 0 612 792" xml:space="preserve">
+      <rect x="65" y="171" fill="none" width="247" height="45"/>
+      <text transform="matrix(1 0 0 1 0 90)" font-family="'SourceSansPro-Regular'" font-size="50">Shubham</text>
+      </svg>
+    </div>
+    <div class="scroll_div" id="one_div">
+      <div class="content1">
+        
+    </div
+    </div>
+      <!--
+      <div class="content2">
+        <p><h2>Web Development</h2></p>
+        <svg id="snap_svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        	 width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+        <line fill="none" stroke="#000000" stroke-miterlimit="10" x1="65.556" y1="249.444" x2="403.333" y2="249.444"/>
+        </svg>
+      </div>
+    -->
+
+
+    <div class="scroll_div" id="two_div">
+      <div class="content1">
+      
+      </div>
+    </div>
+    </div>
+
+    <div class="scroll_div" id="three_div">
+      <div id="contact_form">
+        <div id="form_head">
+          <p><h2>Contact Me!</h2></p>
+        </div>
+        <form action="post">
+          <input class="focus" type="text" placeholder="Name"/>
+          <input class="not_first focus" type="mail" placeholder="E-Mail"/>
+          <textarea placeholder="Leave me a message!" class="focus not_first"></textarea>
+          <input type="submit" value="Submit"/>
+        </form>
+      </div>
+      <div class="social">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        	 width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
+        <path id="White_2_" fill="#444444" d="M30.7,0H1.3C0.6,0,0,0.6,0,1.3v29.3C0,31.4,0.6,32,1.3,32H17V20h-4v-5h4v-4
+        	c0-4.1,2.6-6.2,6.3-6.2C25.1,4.8,26.6,5,27,5v4.3l-2.6,0c-2,0-2.5,1-2.5,2.4V15h5l-1,5h-4l0.1,12h8.6c0.7,0,1.3-0.6,1.3-1.3V1.3
+        	C32,0.6,31.4,0,30.7,0z"/>
+        </svg>
+    </div>
+      <div id="copy_right"><p>&copy Ramoe</p></div>
+    </div>
+    
+  </body>
+</html>
